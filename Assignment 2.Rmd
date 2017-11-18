@@ -1,0 +1,32 @@
+---
+title: "Assignment 2"
+author: "WANG Ying"
+date: "2017年10月10日"
+output: html_document
+---
+
+```{r}
+source("functions.R")
+```
+
+
+```{r}
+print(sum_column(iris, "Sepal.Length"))
+print(sum_column(iris, "Species"))
+print(sum_column(warpbreaks, "breaks"))
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
